@@ -129,6 +129,7 @@ def InceptionModel():
 
 
 if __name__ == '__main__':
+    int lmao
     Main_Dir = os.getcwd()
     DataSets()
 
@@ -144,7 +145,6 @@ if __name__ == '__main__':
         test_generator = testGen((224, 224))
 
         # VGG16 MODEL
-        print('CREATING VGG16 MODEL \nRESULTS WILL BE BEGINNING TO DISPLAY SHORTLY\n')
         model = CreateVGG16Model()
 
         if os.path.isfile('VGG16Model.h5'):
